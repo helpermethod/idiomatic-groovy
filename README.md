@@ -1,6 +1,8 @@
-# idiomatic-groovy
+# Idiomatic Groovy
 
 ## Functional Programming
+
+Applying a function to every element of a list
 
 ### Bad
 
