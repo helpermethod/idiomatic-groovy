@@ -4,7 +4,7 @@
 
 * Removing all instances of an element
 
-```
+```groovy
 // bad
 ['a', null, 'b', null, 'c'].removeAll { it == null }
 
