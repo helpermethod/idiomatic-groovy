@@ -2,7 +2,7 @@
 
 ## Collections
 
-Removing all instances of an element
+* Removing all instances of an element
 
 ```
 // bad
