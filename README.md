@@ -24,10 +24,6 @@ for (c in [1, 2, 3, 4]) {
 }
 ```
 
-```groovy
-def result = []
-```
-
 ### Applying a function to every element of a list
 
 * Bad
