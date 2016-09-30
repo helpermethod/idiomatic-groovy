@@ -2,11 +2,11 @@
 
 ## Functional Programming
 
-### Filtering a list
-
-#### Bad
+* Filtering a list
 
 ```groovy
+// bad
+
 def result = []
 
 for (c in [1, 2, 3, 4]) {
@@ -14,36 +14,26 @@ for (c in [1, 2, 3, 4]) {
         result << c
     }
 }
-```
 
-* Good 
-
-```groovy
+// good
 [1, 2, 3, 4].findAll {
    it % 2 == 0
 }
 ```
 
-### Applying a function to every element of a list
-
-* Bad
+* Applying a function to every element of a list
 
 ```groovy
+// bad
 def result = []
 
 for (c in ['a', 'b', 'c']) {
     result << c.toUpperCase()
 }
-```
 
-* Better
-
-```groovy
+// better
 ['a', 'b', 'c'].collect { it.toUpperCase() }
-```
 
-* Good
-
-```groovy
+// good
 ['a', 'b', 'c']*.toUpperCase()
 ```
