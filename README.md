@@ -4,7 +4,7 @@
 
 ### Filtering a list
 
-* Bad
+#### Bad
 
 ```groovy
 def result = []
