@@ -28,7 +28,7 @@ for (c in [1, 2, 3, 4]) {
 def result = []
 ```
 
-Applying a function to every element of a list
+### Applying a function to every element of a list
 
 * Bad
 
