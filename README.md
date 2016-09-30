@@ -4,7 +4,7 @@
 
 Applying a function to every element of a list
 
-### Bad
+* Bad
 
 ```groovy
 def result = []
@@ -14,13 +14,13 @@ for (c in ['a', 'b', 'c']) {
 }
 ```
 
-### Better
+* Better
 
 ```groovy
 ['a', 'b', 'c'].collect { it.toUpperCase() }
 ```
 
-### Best
+* Good
 
 ```groovy
 ['a', 'b', 'c']*.toUpperCase()
