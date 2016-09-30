@@ -6,7 +6,6 @@
 
 ```groovy
 // bad
-
 def result = []
 
 for (c in [1, 2, 3, 4]) {
