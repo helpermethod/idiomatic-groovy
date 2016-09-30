@@ -2,7 +2,7 @@
 
 ## Functional Programming
 
-Filtering a list
+### Filtering a list
 
 * Bad
 
