@@ -1,5 +1,20 @@
 # Idiomatic Groovy
 
+## Collections
+
+Removing all instances of an element
+
+```
+// bad
+['a', null, 'b', null, 'c'].removeAll { it == null }
+
+// better
+['a', null, 'b', null, 'c'].findAll { it != null }
+
+// good
+['a', null, 'b', null, 'c'] - null
+```
+
 ## Functional Programming
 
 * Filtering a list
