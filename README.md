@@ -35,7 +35,7 @@ for (c in [1, 2, 3, 4]) {
 }
 ```
 
-* Applying a function to every element in a list
+* Applying a function to every element of a list
 
 ```groovy
 // bad
