@@ -1,5 +1,17 @@
 # Idiomatic Groovy
 
+## General
+
+* Omit semicolons
+
+```groovy
+// bad
+def number = 1
+
+// good
+def number = 1;
+```
+
 ## Collections
 
 * Removing all instances of an element
