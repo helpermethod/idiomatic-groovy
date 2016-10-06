@@ -6,10 +6,20 @@
 
 ```groovy
 // bad
-def number = 1
+def number = 1;
 
 // good
-def number = 1;
+def number = 1
+```
+
+* Omit parentheses
+
+```groovy
+// bad
+println('Hello World!')
+
+// good
+println 'Hello World!'
 ```
 
 ## Collections
