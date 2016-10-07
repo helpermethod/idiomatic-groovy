@@ -24,7 +24,7 @@ println 'Hello World!'
 
 ## Strings
 
-* Concatenate strings
+* Concatenating strings
 
 ```groovy
 def lang = 'Groovy'
