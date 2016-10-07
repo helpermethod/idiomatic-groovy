@@ -22,6 +22,21 @@ println('Hello World!')
 println 'Hello World!'
 ```
 
+## Strings
+
+* Concatenate strings
+
+```groovy
+def lang = 'Groovy'
+
+// bad
+println lang + ' rocks!'
+
+// good
+println "$lang rocks!"
+```
+
+
 ## Collections
 
 * Removing all instances of an element
