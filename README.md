@@ -38,8 +38,6 @@ println "$lang rocks!"
 
 ## Collections
 
-### Lists
-
 * Use the `-` operator for removing all instances of an element
 
 ```groovy
@@ -59,6 +57,8 @@ println "$lang rocks!"
 // bad
 def l = ['a', 'b', 'c']
 l.addAll ['d', 'e', 'f']
+
+def result = l + ['d', 'e', 'f']
 ```
 
 ## Functional Programming
