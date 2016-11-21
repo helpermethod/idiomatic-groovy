@@ -24,7 +24,7 @@ println 'Hello World!'
 
 ## Strings
 
-* Use String interpolation for concatenation
+* Use string interpolation for concatenation
 
 ```groovy
 def lang = 'Groovy'
@@ -34,6 +34,11 @@ println lang + ' rocks!'
 
 // good
 println "$lang rocks!"
+```
+
+* Use triple-quotes for multiline strings
+
+```groovy
 ```
 
 ## Collections
