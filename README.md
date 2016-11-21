@@ -24,7 +24,7 @@ println 'Hello World!'
 
 ## Strings
 
-* Concatenating strings
+* Use String interpolation for concatenation
 
 ```groovy
 def lang = 'Groovy'
@@ -39,7 +39,9 @@ println "$lang rocks!"
 
 ## Collections
 
-* Removing all instances of an element
+### Lists
+
+* Use the `-` operator for removing all instances of an element
 
 ```groovy
 // bad
@@ -52,9 +54,17 @@ println "$lang rocks!"
 ['a', null, 'b', null, 'c'] - null
 ```
 
+* Use the `+` operator for concatenation
+
+```groovy
+// bad
+def l = ['a', 'b', 'c']
+l.addAll ['d', 'e', 'f']
+```
+
 ## Functional Programming
 
-* Filtering a list
+* Use `findAll` for filtering lists and maps
 
 ```groovy
 // bad
@@ -72,7 +82,7 @@ for (c in [1, 2, 3, 4]) {
 }
 ```
 
-* Applying a function to every element of a list
+* Use `collect` to apply a function to every element of list or map
 
 ```groovy
 // bad
