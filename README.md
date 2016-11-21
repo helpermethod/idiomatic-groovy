@@ -63,7 +63,7 @@ l.addAll ['d', 'e', 'f']
 
 ## Functional Programming
 
-* Use `findAll` for filtering lists and maps
+* Use `findAll` for filtering collections
 
 ```groovy
 // bad
@@ -81,7 +81,7 @@ for (c in [1, 2, 3, 4]) {
 }
 ```
 
-* Use `collect` to apply a function to every element of a list or map
+* Use `collect` to apply a function to every element of a collection
 
 ```groovy
 // bad
