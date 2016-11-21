@@ -58,7 +58,8 @@ println "$lang rocks!"
 def l = ['a', 'b', 'c']
 l.addAll ['d', 'e', 'f']
 
-def result = l + ['d', 'e', 'f']
+// good
+l + ['d', 'e', 'f']
 ```
 
 ## Functional Programming
