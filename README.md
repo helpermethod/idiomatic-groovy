@@ -36,7 +36,6 @@ println lang + ' rocks!'
 println "$lang rocks!"
 ```
 
-
 ## Collections
 
 ### Lists
@@ -82,7 +81,7 @@ for (c in [1, 2, 3, 4]) {
 }
 ```
 
-* Use `collect` to apply a function to every element of list or map
+* Use `collect` to apply a function to every element of a list or map
 
 ```groovy
 // bad
