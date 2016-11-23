@@ -12,7 +12,7 @@ def number = 1;
 def number = 1
 ```
 
-* Omit parentheses
+* Omit parentheses for single method calls
 
 ```groovy
 // bad
@@ -21,6 +21,8 @@ println('Hello World!')
 // good
 println 'Hello World!'
 ```
+
+* Use parentheses for chained method calls
 
 ## Strings
 
